@@ -37,7 +37,7 @@ body {
     font-weight: var(--fw-400);
     font-size: var(--fs-body);
     color: var(--clr-neutral-White);
-    background-color: var(--clr-neutral-Off-Black);
+    background: var(--clr-neutral-Off-Black);
 }
 
 .user-name {
@@ -66,6 +66,8 @@ body {
     display: block;
     max-width: 100%;   
     margin-inline: auto; 
+    font-style: italic;
+    color: var(--clr-primary-green);
 }
 
 .list-items:hover {
